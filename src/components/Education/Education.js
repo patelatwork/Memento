@@ -8,7 +8,7 @@ const Education = () => {
   const educationData = [
     {
       id: 1,
-      degree: 'Higher Secondary Education (12th Grade)',
+      degree: 'Higher Secondary Education (11th-12th Grade)',
       institution: 'Shri Vardhaman Vidhyalaya',
       location: 'Mehsana, Gujarat, India',
       duration: '2021 - 2023',
@@ -67,10 +67,7 @@ const Education = () => {
                               <i className="fas fa-map-marker-alt"></i>
                               <span>{edu.location}</span>
                             </div>
-                            <div className="gpa">
-                              <i className="fas fa-star"></i>
-                              <span>GPA: {edu.gpa}</span>
-                            </div>
+                          
                           </div>
                         </div>
                       </div>
