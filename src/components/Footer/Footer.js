@@ -24,9 +24,9 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Connect</h4>
             <div className="footer-social">
-              <a href="#"><i className="fab fa-linkedin-in"></i></a>
-              <a href="#"><i className="fab fa-github"></i></a>
-              <a href="#"><i className="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/dhruv-patel-16a23628a/"><i className="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/patelatwork"><i className="fab fa-github"></i></a>
+        
             </div>
           </div>
         </div>
