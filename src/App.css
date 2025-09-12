@@ -1,0 +1,110 @@
+.App {
+  text-align: left;
+}
+
+/* Global App Styles */
+.section-wrapper {
+  position: relative;
+}
+
+.section-wrapper:nth-child(even) {
+  background: var(--secondary-cream);
+}
+
+.section-wrapper:nth-child(odd) {
+  background: var(--primary-cream);
+}
+
+/* Floating Elements */
+.floating-element {
+  position: absolute;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.floating-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, var(--primary-green), var(--accent-green));
+}
+
+.floating-square {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(45deg, var(--secondary-green), var(--primary-green));
+  transform: rotate(45deg);
+}
+
+.floating-triangle {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 130px solid var(--accent-green);
+}
+
+/* Background Patterns */
+.bg-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.03;
+  background-image: 
+    radial-gradient(circle at 1px 1px, var(--primary-green) 1px, transparent 0);
+  background-size: 20px 20px;
+  pointer-events: none;
+}
+
+/* Smooth Scrolling and Page Transitions */
+.page-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Loading Animation */
+.loading-spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid var(--secondary-cream);
+  border-radius: 50%;
+  border-top-color: var(--primary-green);
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Focus States */
+*:focus {
+  outline: 2px solid var(--primary-green);
+  outline-offset: 2px;
+}
+
+/* Selection Styling */
+::selection {
+  background: var(--primary-green);
+  color: white;
+}
+
+::-moz-selection {
+  background: var(--primary-green);
+  color: white;
+}
