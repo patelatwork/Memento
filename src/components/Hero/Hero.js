@@ -72,7 +72,7 @@ const Hero = () => {
             </div>
             
             <div className="hero-social">
-              <a href="https://www.linkedin.com/in/dhruv-patel-your-profile" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/dhruv-patel-16a23628a/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a href="https://github.com/patelatwork" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
